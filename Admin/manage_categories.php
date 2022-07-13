@@ -33,6 +33,9 @@ if(isset($_POST['submit'])){
          $msg="Category Already Exists";
       }
    }
+
+   
+
    if($msg==''){
       if(isset($_GET['id']) && $_GET['id']!=''){
          mysqli_query($con,"update categories set categories='$categories' where id='$id'");

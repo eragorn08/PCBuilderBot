@@ -13,8 +13,10 @@ $meta_desc='';
 $meta_keyword='';
 $msg='';
 
+$image_required='';
 //add category
 if(isset($_GET['id']) && $_GET['id']!=''){
+   $image_required='';
    $id=get_safe_value($con,$_GET['id']);
    $res=mysqli_query($con,"select * from product where id='$id'");
    $check=mysqli_num_rows($res);
@@ -37,6 +39,7 @@ if(isset($_GET['id']) && $_GET['id']!=''){
 }
 
 //edit category
+
 if(isset($_POST['submit'])){
    $categories_id=get_safe_value($con,$_POST['categories_id']);
    $product_name=get_safe_value($con,$_POST['product_name']);
@@ -63,13 +66,31 @@ if(isset($_POST['submit'])){
          $msg="Product Already Exists";
       }
    }
+
+
+
+		// if($_FILES['product_image']['type']!='product_image/png' && $_FILES['product_image']['type']!='product_image/jpg' && $_FILES['product_image']['type']!='product_image/jpeg'){
+		// 	$msg="Please Select Only png, jpg, and jpeg Image Format";
+      // }
+
+
    if($msg==''){
       if(isset($_GET['id']) && $_GET['id']!=''){
-         mysqli_query($con,"update product set categories_id='$categories_id', product_name='$product_name', mrp='$mrp', product_price='$product_price', product_quantity='$product_quantity', product_short_desc='$product_short_desc',
-         product_desc='$product_desc', meta_title='$meta_title', meta_desc='$meta_desc', meta_keyword='$meta_keyword' where id='$id'");
+         if($_FILES['product_image']['name'] !=''){
+            $product_image=rand(111111111,999999999).'_'.$_FILES['product_image']['name'];
+            move_uploaded_file($_FILES['product_image']['tmp_name'],PRODUCT_IMAGE_SERVER_PATH.$product_image);
+            $update_sql="update product set categories_id='$categories_id', product_name='$product_name', mrp='$mrp', product_price='$product_price', product_quantity='$product_quantity', product_short_desc='$product_short_desc',
+            product_desc='$product_desc', meta_title='$meta_title', meta_desc='$meta_desc', meta_keyword='$meta_keyword',product_image='$product_image' where id='$id'";
+         }else{
+            $update_sql="update product set categories_id='$categories_id', product_name='$product_name', mrp='$mrp', product_price='$product_price', product_quantity='$product_quantity', product_short_desc='$product_short_desc',
+            product_desc='$product_desc', meta_title='$meta_title', meta_desc='$meta_desc', meta_keyword='$meta_keyword' where id='$id'";
+         }
+         mysqli_query($con,$update_sql);
       }else{
-         mysqli_query($con,"insert into product(categories_id,product_name,mrp,product_price,product_quantity,product_short_desc,product_desc,meta_title,meta_desc,meta_keyword,status) 
-         values('$categories_id', '$product_name', '$mrp', '$product_price', '$product_quantity', '$product_short_desc', '$product_desc', '$meta_title', '$meta_desc', '$meta_keyword', 1)");
+         $product_image=rand(111111111,999999999).'_'.$_FILES['product_image']['name'];
+         move_uploaded_file($_FILES['product_image']['tmp_name'],'../media/products/'.$product_image);
+         mysqli_query($con,"insert into product(categories_id,product_name,mrp,product_price,product_quantity,product_short_desc,product_desc,meta_title,meta_desc,meta_keyword,status,product_image) 
+         values('$categories_id', '$product_name', '$mrp', '$product_price', '$product_quantity', '$product_short_desc', '$product_desc', '$meta_title', '$meta_desc', '$meta_keyword', 1,'$product_image')");
       }
       header('location:products.php');
       die();
@@ -93,7 +114,7 @@ if(isset($_POST['submit'])){
                                     $res=mysqli_query($con,"select id, categories from categories order by categories asc");
                                     while($row=mysqli_fetch_assoc($res)){
                                        if($row ['id']==$categories_id){
-                                          echo "<option selectedvalue=".$row['id'].">".$row['categories']."</option>";
+                                          echo "<option selected value=".$row['id'].">".$row['categories']."</option>";
                                        }else{
                                           echo "<option value=".$row['id'].">".$row['categories']."</option>";
                                        }
@@ -124,7 +145,7 @@ if(isset($_POST['submit'])){
 
                               <div class="form-group">
                                  <label for="categories" class=" form-control-label">Product Image</label>
-                                 <input type="file" name="product_image" class="form-control" required>
+                                 <input type="file" name="product_image" class="form-control"  <?php echo $image_required?>>
                               </div>
 
                               <div class="form-group">
