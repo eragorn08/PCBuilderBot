@@ -25,11 +25,8 @@ if(isset($_POST['submit'])){
         $cart_total=$cart_total+($price*$qty);
     }
     $total_price=$cart_total;
-    $payment_status='pending';
-    if($payment_type='cod'){
-        $payment_status='success';
-    }
-    $order_status='pending';
+    $payment_status='1';
+    $order_status='1';
     $added_on=date('Y-m-d h:i:s');
 
     mysqli_query($con,"insert into `user_order`(user_id,address,city,postcode,payment_type,payment_status,order_status,added_on,total_price) values('$user_id','$address','$city','$postcode','$payment_type','$payment_status','$order_status','$added_on','$total_price')");
@@ -184,8 +181,8 @@ if(isset($_POST['submit'])){
                                     <div class="accordion__body">
                                         <div class="paymentinfo">
                                             <div class="single-method">
-                                                COD<input type="radio" name="payment_type" value="COD" required>
-                                                &nbsp;&nbsp;GCash<input type="radio" name="payment_type" value="GCash" required>
+                                                <input type="radio" name="payment_type" value="COD" required>&nbsp;&nbsp;COD
+                                                <br/><br/><input type="radio" name="payment_type" value="GCash" required>&nbsp;&nbsp;GCash: 09XXXXXXXX Name: John Smith
                                             </div>
                                             <div class="single-method">
                                                 
