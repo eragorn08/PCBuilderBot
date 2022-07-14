@@ -145,9 +145,9 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="section__title--2 text-center">
-                            <h2 id="needup" class="title__line">Top Full-Build Sellers</h2>
+                            <h2 id="needup" class="title__line">Pre-Built PCs for Gamers</h2>
                             <p id="thelat">No time for building a PC? No Problem! We are here to help!</p>
-                            <p id="thelat">Personal Computers straight to your home!</p>
+                            <p id="thelat">Tell us what games do you play, and we'll build it for you!</p>
                         </div>
                     </div>
                 </div>
@@ -158,23 +158,14 @@
                             <div class="category">
                                 <div class="ht__cat__thumb">
                                     <a href="product-details.html">
-                                        <img src="images/product/9.jpg" alt="product images">
+                                        <div id="csgo"></div>
                                     </a>
                                 </div>
-                                <div class="fr__hover__info">
-                                    <ul class="product__action">
-                                        <li><a href="wishlist.html"><i class="icon-heart icons"></i></a></li>
-
-                                        <li><a href="cart.html"><i class="icon-handbag icons"></i></a></li>
-
-                                        <li><a href="#"><i class="icon-shuffle icons"></i></a></li>
-                                    </ul>
-                                </div>
                                 <div class="fr__product__inner">
-                                    <h4><a href="product-details.html">Special Wood Basket</a></h4>
+                                    <h4><a id="csfont" href="product-details.html">Global Elite Pack</a></h4>
                                     <ul class="fr__pro__prize">
-                                        <li class="old__prize">$30.3</li>
-                                        <li>$25.9</li>
+                                        <li id="oldprice" class="old__prize">PHP 27000</li>
+                                        <li id="newprice">PHP 25000</li>
                                     </ul>
                                 </div>
                             </div>
@@ -185,23 +176,14 @@
                             <div class="category">
                                 <div class="ht__cat__thumb">
                                     <a href="product-details.html">
-                                        <img src="images/product/10.jpg" alt="product images">
+                                        <div id="valo"></div>
                                     </a>
                                 </div>
-                                <div class="fr__hover__info">
-                                    <ul class="product__action">
-                                        <li><a href="wishlist.html"><i class="icon-heart icons"></i></a></li>
-
-                                        <li><a href="cart.html"><i class="icon-handbag icons"></i></a></li>
-
-                                        <li><a href="#"><i class="icon-shuffle icons"></i></a></li>
-                                    </ul>
-                                </div>
                                 <div class="fr__product__inner">
-                                    <h4><a href="product-details.html">voluptatem accusantium</a></h4>
+                                    <h4><a id="valfont" href="product-details.html">Radiant Pack</a></h4>
                                     <ul class="fr__pro__prize">
-                                        <li class="old__prize">$30.3</li>
-                                        <li>$25.9</li>
+                                        <li id="oldprice" class="old__prize">PHP 22000</li>
+                                        <li id="newprice">PHP 20000</li>
                                     </ul>
                                 </div>
                             </div>
@@ -212,23 +194,14 @@
                             <div class="category">
                                 <div class="ht__cat__thumb">
                                     <a href="product-details.html">
-                                        <img src="images/product/11.jpg" alt="product images">
+                                    <div id="cyber"></div>
                                     </a>
                                 </div>
-                                <div class="fr__hover__info">
-                                    <ul class="product__action">
-                                        <li><a href="wishlist.html"><i class="icon-heart icons"></i></a></li>
-
-                                        <li><a href="cart.html"><i class="icon-handbag icons"></i></a></li>
-
-                                        <li><a href="#"><i class="icon-shuffle icons"></i></a></li>
-                                    </ul>
-                                </div>
                                 <div class="fr__product__inner">
-                                    <h4><a href="product-details.html">Product Dummy Name</a></h4>
+                                    <h4><a id="cybfont" href="product-details.html">2077 Pack</a></h4>
                                     <ul class="fr__pro__prize">
-                                        <li class="old__prize">$30.3</li>
-                                        <li>$25.9</li>
+                                        <li id="oldprice" class="old__prize">PHP 62000</li>
+                                        <li id="newprice">PHP 55000</li>
                                     </ul>
                                 </div>
                             </div>
@@ -239,23 +212,14 @@
                             <div class="category">
                                 <div class="ht__cat__thumb">
                                     <a href="product-details.html">
-                                        <img src="images/product/12.jpg" alt="product images">
+                                        <div id="gtav"></div>
                                     </a>
                                 </div>
-                                <div class="fr__hover__info">
-                                    <ul class="product__action">
-                                        <li><a href="wishlist.html"><i class="icon-heart icons"></i></a></li>
-
-                                        <li><a href="cart.html"><i class="icon-handbag icons"></i></a></li>
-
-                                        <li><a href="#"><i class="icon-shuffle icons"></i></a></li>
-                                    </ul>
-                                </div>
                                 <div class="fr__product__inner">
-                                    <h4><a href="product-details.html">Product Title Here </a></h4>
+                                    <h4><a id="gtafont" href="product-details.html">Five Star Pack</a></h4>
                                     <ul class="fr__pro__prize">
-                                        <li class="old__prize">$30.3</li>
-                                        <li>$25.9</li>
+                                        <li id="oldprice" class="old__prize">PHP 35000</li>
+                                        <li id="newprice">PHP 32000</li>
                                     </ul>
                                 </div>
                             </div>

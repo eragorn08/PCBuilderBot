@@ -22,7 +22,10 @@
 }
 
 body {
-    background-color: black;
+    background-image: url(https://besthqwallpapers.com/Uploads/13-12-2021/187550/4k-black-3d-shards-blue-neon-light-geometric-shapes-creative.jpg);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: cover;
 }
 /*SLIDE BACKGROUND*/
 #slide1 {
@@ -66,11 +69,8 @@ body {
 .slide p {
     color: white;
     font-family: 'Lato', sans-serif;
-
 }
-#gfc {
 
-}
 .slide__thumb {
     width: 100%;
 }
@@ -91,3 +91,96 @@ body {
 #newprice {
     color: yellow;
 }
+
+/*PreBuilt PC*/
+#csgo{
+    height: 400px;
+    width: 600px;
+    background-size: contain;
+    background-image: url(https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e60e6144d773202a2a1119851fd95324.png);
+    background-repeat: no-repeat;
+}
+#csgo:hover{
+    background-image: url('images/extra/jiffy/csgo-hover.png');
+    height: 400px;
+    width: 600px;
+    background-size: contain;
+    transition: 1s;
+    background-repeat: no-repeat;
+}
+#csgo:hover::after {
+    transition: 1s;
+}
+#csfont {
+    color: yellow;
+}
+
+#valo{
+    height: 400px;
+    width: 600px;
+    background-size: contain;
+    background-image: url('images/extra/jiffy/valorant.gif');
+    background-repeat: no-repeat;
+}
+#valo:hover{
+    background-image: url('images/extra/jiffy/valorant-hover.png');
+    height: 400px;
+    width: 600px;
+    background-size: contain;
+    transition: 1s;
+    background-repeat: no-repeat;
+}
+#valo:hover::after {
+    transition: 1s;
+}
+#valfont {
+    color: rgb(255, 114, 114);
+}
+
+#cyber{
+    height: 400px;
+    width: 600px;
+    background-size: contain;
+    background-image: url('images/extra/jiffy/cyberpunk.gif');
+    background-repeat: no-repeat;
+}
+#cyber:hover{
+    background-image: url('images/extra/jiffy/cyberpunk-hover.png');
+    height: 400px;
+    width: 600px;
+    background-size: contain;
+    transition: 1s;
+    background-repeat: no-repeat;
+}
+#cyber:hover::after {
+    transition: 1s;
+}
+#cybfont {
+    color: palevioletred;
+}
+
+#gtav{
+    height: 400px;
+    width: 600px;
+    background-size: contain;
+    background-image: url('https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d987910809b497fce04ec48bb38779a9.png');
+    background-repeat: no-repeat;
+}
+#gtav:hover{
+    background-image: url('images/extra/jiffy/gtav-hover.png');
+    height: 400px;
+    width: 600px;
+    background-size: contain;
+    transition: 1s;
+    background-repeat: no-repeat;
+}
+#gtav:hover::after {
+    transition: 1s;
+}
+#gtafont {
+    color: greenyellow;
+}
+
+
+
+
