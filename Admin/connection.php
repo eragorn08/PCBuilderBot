@@ -1,6 +1,6 @@
 <?php
 session_start();
-$con=mysqli_connect("localhost","root","Eragorn110800",'pcbuilderbot');
+$con=mysqli_connect("localhost","root","root",'pcbuilderbot');
 define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT'].'/PCBuilderBot/');
 define('SITE_PATH','http://127.0.0.1/PCBuilderBot/');
 

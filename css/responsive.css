@@ -90,6 +90,9 @@
 .main__menu li {
   margin: 0 17px;
 }
+.main__menu button {
+  margin: 0 17px;
+}
 .blog--page .blog__details h2 {
   line-height: 23px;
   font-size: 16px;
@@ -182,7 +185,7 @@
   margin: 0 10px;
 }
 .header--3 .menumenu__container {
-  padding-left: 0;
+  padding-left: -100;
   padding-right: 0;
 }    
     
@@ -525,7 +528,7 @@ nav.off__canvars--menu ul li {
   margin-right: 15px;
   min-width: 160px;
 }    
-.header--5 .htc__header__right {
+.header--5 .htc__menumenu {
   margin-right: 20px;
 }    
 .header--5 .mean-container a.meanmenu-reveal {
@@ -1117,7 +1120,8 @@ nav.off__canvars--menu ul li {
 }
     
 .header--5 .htc__header__right {
-  margin-right: 20px;
+  margin-right: 0px;
+  margin-left: 10px;
 }    
 .header--5 .mean-container a.meanmenu-reveal {
   margin-top: -71px;
@@ -1289,8 +1293,6 @@ nav.off__canvars--menu ul li {
 
 
 }
-
-
 
 
 
