@@ -40,17 +40,7 @@ if($cat_id>0){
                     if(count($get_product)>0) {
                     ?>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="htc__product__rightidebar">
-                            <div class="htc__grid__top">
-                                <div class="htc__select__option">
-                                    <select class="ht__select">
-                                        <option>Default softing</option>
-                                        <option>Sort by popularity</option>
-                                        <option>Sort by average rating</option>
-                                        <option>Sort by newness</option>
-                                    </select>
-                                </div>
-                            </div>
+                        <div class="htc__product__rightidebar"></div>
                                         <?php 
                                         foreach($get_product as $list) {
                                         ?>

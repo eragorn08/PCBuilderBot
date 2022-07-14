@@ -29,7 +29,6 @@ $res=mysqli_query($con,$sql);
                                 </thead>
                                 <tbody>
                                     <?php
-                                    $uid=$_SESSION['USER_ID'];
                                     $res=mysqli_query($con,"select user_order.*,order_status.name as order_status_str, payment_status.name as payment_status_str from user_order,order_status,payment_status where order_status.id=user_order.order_status and payment_status.id=user_order.payment_status");
                                     while($row=mysqli_fetch_assoc($res)){
                                     ?>

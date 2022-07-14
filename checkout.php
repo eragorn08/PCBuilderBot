@@ -176,7 +176,7 @@ if(isset($_POST['submit'])){
                                         </div>
                                     </div>
                                     <div class="<?php echo $accordion_class?>">
-                                        payment information
+                                        payment option
                                     </div>
                                     <div class="accordion__body">
                                         <div class="paymentinfo">
