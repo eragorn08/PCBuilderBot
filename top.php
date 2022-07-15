@@ -25,7 +25,6 @@ $totalProduct = $obj->totalProduct();
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/core.css">
     <link rel="stylesheet" href="css/shortcode/shortcodes.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="style.css">
@@ -41,19 +40,19 @@ $totalProduct = $obj->totalProduct();
     <!-- Body main wrapper start -->
     <div class="wrapper">
         <header id="htc__header" class="htc__header__area header--one">
-            <div id="sticky-header-with-topbar" class="mainmenu__wrap sticky__header">
+            <div id="sticky-header-with-topbar" style="background-color: black;" class="mainmenu__wrap sticky__header">
                 <div class="container">
                     <div id="header" class="row">
-                        <div class="menumenu__container clearfix">
+                        <div id="headermenu" class="menumenu__container clearfix">
                             <div class="col-lg-2 col-md-2 col-sm-3 col-xs-5"> 
                                 <div class="logo">
                                      <a href="index.php"><img src="images/extra/PCBotLogo.png" alt="logo images"></a>
                                 </div>
                             </div>
                             <div class="col-md-7 col-lg-8 col-sm-5 col-xs-3">
-                                <nav class="main__menu__nav hidden-xs hidden-sm">
+                                <nav id="he01" class="main__menu__nav hidden-xs hidden-sm">
                                     <ul class="main__menu">
-                                        <li class="drop"><a href="index.php">Home</a></li>
+                                        <li class="drop"><a id="navver" href="index.php">Home</a></li>
                                             <?php
                                         foreach($cat_arr as $list){
                                             ?>
