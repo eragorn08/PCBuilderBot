@@ -89,6 +89,32 @@
                     </div>
                 </div>
                 <!-- End Single Slide -->
+                <!-- Start Single Slide -->
+                <div id="slide4" class="single__slide animation__style01 slider__fixed--height">
+                    <div class="container">
+                        <div class="row align-items__center">
+                            <div class="col-md-7 col-sm-7 col-xs-12 col-lg-6">
+                                <div class="slide">
+                                    <div class="slider__inner">
+                                        <h2>Need Help Building your First PC?</h2>
+                                        <h1 style="color: yellow; font-family: 'Signika', sans-serif;">PCBuilderBot</h1>
+                                        <p>Building PC will be a breeze with PCBuilderBot! Our State of the art Bot will give you the best idea on what to use for Building PCs. Click down to learn more.</p>
+                                        <h1></h1>
+                                        <h1></h1>
+                                        <div class="cr__btn">
+                                            <a href="cart.html">Learn More Here!</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-5 col-xs-12 col-md-5">
+                                <div class="slide__thumb">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Slide -->
             </div>
         </div>
         <!-- Start Slider Area -->

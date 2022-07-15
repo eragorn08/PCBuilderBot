@@ -40,7 +40,7 @@ $totalProduct = $obj->totalProduct();
     <!-- Body main wrapper start -->
     <div class="wrapper">
         <header id="htc__header" class="htc__header__area header--one">
-            <div id="sticky-header-with-topbar" style="background-color: black;" class="mainmenu__wrap sticky__header">
+            <div id="sticky-header-with-topbar" class="mainmenu__wrap sticky__header">
                 <div class="container">
                     <div id="header" class="row">
                         <div id="headermenu" class="menumenu__container clearfix">
@@ -60,21 +60,21 @@ $totalProduct = $obj->totalProduct();
                                             <?php
                                         }
                                         ?>
-                                        <li><a href="#">PCBuilderBot</a></li>
+                                        <li><a href="https://pcbuilderbot-v2-js.herokuapp.com/">PCBuilderBot</a></li>
                                         <li><a href="contact.php">Contact</a></li>
                                     
                             <div class="col-md-1 col-lg-3 col-sm-4 col-xs-4">
                                 <div class="header__right">
                                     <div class="header__account">
                                         <?php if(isset($_SESSION['USER_LOGIN'])) {
-                                            echo'<a href="logout.php">Logout</a> <a href="my_order.php">My Order</a>';
+                                            echo'<a style="color: white;" href="logout.php">Logout</a> <a href="my_order.php">My Order</a>';
                                         }else{
-                                            echo'<a href="login.php">Login/Register</i></a>';
+                                            echo'<a style="color: white;" href="login.php">Login/Register</i></a>';
                                         }
                                         ?>
                                     </div>
                                     <div class="htc__shopping__cart">
-                                        <i class="icon-handbag icons"></i>
+                                        <i class="icon-handbag icons" style="color: white;"></i>
                                         <a href="cart.php"><span class="htc__qua"><?php echo $totalProduct ?></span></a>
                                     </div>
                                 </div>
@@ -127,4 +127,4 @@ $totalProduct = $obj->totalProduct();
                     <div class="mobile-menu-area"></div>
                 </div>
             </div>
-        </header>+-
+        </header>

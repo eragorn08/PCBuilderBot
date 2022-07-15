@@ -193,7 +193,7 @@
 
             // Let's also add a marker while we're at it
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(23.7286, 90.3854),
+                position: new google.maps.LatLng(14.6135, 121.0352),
                 map: map,
                 title: 'Ramble!',
                 icon: 'images/icons/map.png',

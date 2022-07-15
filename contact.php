@@ -1,21 +1,25 @@
 <?php 
 require('top.php'); 
 ?>
-<div class="ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(images/bg/4.jpg) no-repeat scroll center center / cover ;">
-            <div class="ht__bradcaump__wrap">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="bradcaump__inner">
-                                <nav class="bradcaump-inner">
-                                  <a class="breadcrumb-item" href="index.php">Home</a>
-                                  <span class="brd-separetor"><i class="zmdi zmdi-chevron-right"></i></span>
-                                  <span class="breadcrumb-item active">Contact Us</span>
-                                </nav>
-                            </div>
+<link rel="stylesheet" href="contact.css">
+
+
+<div id="top-catego"  class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="bradcaump__inner">
+                            <nav class="bradcaump-inner">
+                              <a id="homebut" class="breadcrumb-item" href="index.php">HOME</a>
+                              <span class="brd-separetor"><i style="color: rgb(104, 205, 255);" class="zmdi zmdi-chevron-right"></i></span>
+                              <span style="color: rgb(104, 205, 255);" class="breadcrumb-item active">CONTACTS</span>
+                            </nav>
                         </div>
                     </div>
                 </div>
+            </div>
+
+<div class="ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(images/extra/map/sample-hire.png) no-repeat scroll center center / cover ;">
+            <div class="ht__bradcaump__wrap">
             </div>
         </div>
         <!-- End Bradcaump area -->
@@ -24,19 +28,18 @@ require('top.php');
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
-                        <div class="map-contacts--2">
-                            <div id="googleMap"></div>
-                        </div>
+                        <a href="https://www.google.com/maps/place/Gilmore+Station/@14.6135125,121.0332057,18z/data=!4m5!3m4!1s0x3397b7cd56d46689:0x9feb1b7112a0a0dc!8m2!3d14.6135308!4d121.0341755"><div class="gmap">
+                        </div></a>
                     </div>
                     <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
-                        <h2 class="title__line--6">CONTACT US</h2>
+                        <h2 id="contactus" class="title__line--6">CONTACT US</h2>
                         <div class="address">
-                            <div class="address__icon">
+                            <div style="background-color: blue;" class="address__icon">
                                 <i class="icon-location-pin icons"></i>
                             </div>
                             <div class="address__details">
-                                <h2 class="ct__title">our address</h2>
-                                <p>666 5th Ave New York, NY, United </p>
+                                <h2 class="ct__title">STORE ADDRESS</h2>
+                                <p>Gilmore Avenue, New Manila, Quezon City</p>
                             </div>
                         </div>
                         <div class="address">
@@ -44,13 +47,13 @@ require('top.php');
                                 <i class="icon-envelope icons"></i>
                             </div>
                             <div class="address__details">
-                                <h2 class="ct__title">openning hour</h2>
-                                <p>666 5th Ave New York, NY, United </p>
+                                <h2 class="ct__title">EMAIL ADDRESS</h2>
+                                <p>helpdesk@pc-builder-bot.com</p>
                             </div>
                         </div>
 
                         <div class="address">
-                            <div class="address__icon">
+                            <div style="background-color: green;" class="address__icon">
                                 <i class="icon-phone icons"></i>
                             </div>
                             <div class="address__details">
@@ -64,7 +67,7 @@ require('top.php');
                     <div class="contact-form-wrap mt--60">
                         <div class="col-xs-12">
                             <div class="contact-title">
-                                <h2 class="title__line--6">SEND A MAIL</h2>
+                                <h2 id="contactus" class="title__line--6">SEND A MAIL</h2>
                             </div>
                         </div>
                         <div class="col-xs-12">

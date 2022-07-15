@@ -9,17 +9,16 @@
     margin-left: -10%;
     margin-right: auto;
     width: 150%;
-    background-color: black;
+    
 }
 #sticky-header-with-topbar {
-    background-color: black;
-}
-
-#headermenu {
-    background-color: black;
+    background-color: rgba(3, 50, 111, 0.773)
 }
 #he01 li a{
     color: white;
+}
+#he01 li a:hover{
+    color: orange;
 }
 
 #pcbotlogo img {
@@ -30,7 +29,7 @@
 }
 
 body {
-    background-image: url(https://besthqwallpapers.com/Uploads/13-12-2021/187550/4k-black-3d-shards-blue-neon-light-geometric-shapes-creative.jpg);
+    background-image: url('images/extra/body-background.jpg');
     background-repeat: repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -53,6 +52,13 @@ body {
 }
 #slide3 {
     background-image:url(images/extra/ryzthread.png);
+    background-size: 105%;
+    background-position: center;
+    background-color: black;
+    padding: 20px;
+}
+#slide4 {
+    background-image:url(images/extra/pcbb.png);
     background-size: 105%;
     background-position: center;
     background-color: black;
@@ -102,11 +108,18 @@ body {
 }
 
 /*PreBuilt PC*/
+.ht__cat__thumb{
+    justify-content: center;
+    align-items: center;
+}
 #csgo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 400px;
     width: 600px;
     background-size: contain;
-    background-image: url(https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/e60e6144d773202a2a1119851fd95324.png);
+    background-image: url('images/extra/jiffy/csgo.gif');
     background-repeat: no-repeat;
 }
 #csgo:hover{
@@ -172,7 +185,7 @@ body {
     height: 400px;
     width: 600px;
     background-size: contain;
-    background-image: url('https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/d987910809b497fce04ec48bb38779a9.png');
+    background-image: url('images/extra/jiffy/gtav.gif');
     background-repeat: no-repeat;
 }
 #gtav:hover{
@@ -187,7 +200,7 @@ body {
     transition: 1s;
 }
 #gtafont {
-    color: blue;
+    color: greenyellow;
 }
 
 

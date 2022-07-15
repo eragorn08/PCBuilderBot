@@ -1,0 +1,33 @@
+
+
+#top-catego {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(191, 121, 0, 0.773)
+}
+#homebut {
+    color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#homebut:hover{
+    color: rgb(104, 205, 255);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.gmap {
+    background: url('images/extra/map/gilmore-far.png');
+    height: 500px;
+    width: 100%;
+    transition: 1s;
+}
+.gmap:hover {
+    background: url('images/extra/map/gilmore-near.png');
+    transition: 1s;
+}
+
+#contactus {
+    color: aquamarine;
+    font-size: 300%;
+}

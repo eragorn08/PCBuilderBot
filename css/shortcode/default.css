@@ -250,7 +250,7 @@ body {
     background: #c43b68;
 }
 .bg__white {
-  background: #fff;
+  background: none;
 }
 .bg__gray {
     background: #f1f1f1;

@@ -1,0 +1,20 @@
+#top-catego {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(191, 121, 0, 0.773)
+}
+#homebut {
+    color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#homebut:hover{
+    color: rgb(104, 205, 255);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.contact-title #contactus {
+    color: rgb(255, 132, 177);
+    font-size: 300%;
+}

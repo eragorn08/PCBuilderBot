@@ -5,35 +5,39 @@ if($cat_id>0){
     $get_product=get_product($con,'',$cat_id);
 }else{
     ?>
-    <sciprt>
+    <script>
         window.location.href='index.php';
-    </sciprt>
+    </script>
     <?php
 }
 
 ?>
+<link rel="stylesheet" href="categories.css">
+
+
 <div class="body__overlay"></div>
-        <!-- Start Bradcaump area -->
-        <div class="ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(images/bg/4.jpg) no-repeat scroll center center / cover ;">
-            <div class="ht__bradcaump__wrap">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="bradcaump__inner">
-                                <nav class="bradcaump-inner">
-                                  <a class="breadcrumb-item" href="index.php">Home</a>
-                                  <span class="brd-separetor"><i class="zmdi zmdi-chevron-right"></i></span>
-                                  <span class="breadcrumb-item active"><?php echo $get_product[0]['categories']?></span>
-                                </nav>
-                            </div>
+            <div id="top-catego"  class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="bradcaump__inner">
+                            <nav class="bradcaump-inner">
+                              <a id="homebut" class="breadcrumb-item" href="index.php">HOME</a>
+                              <span class="brd-separetor"><i style="color: rgb(104, 205, 255);" class="zmdi zmdi-chevron-right"></i></span>
+                              <span style="color: rgb(104, 205, 255);" class="breadcrumb-item active"><?php echo $get_product[0]['categories']?></span>
+                            </nav>
                         </div>
                     </div>
                 </div>
             </div>
+        <!-- Start Bradcaump area -->
+        <div id="banner" class="ht__bradcaump__area">
+            <div class="ht__bradcaump__wrap">
+                
+            </div>
         </div>
         <!-- End Bradcaump area -->
         <!-- Start Product Grid -->
-        <section class="htc__product__grid bg__white ptb--100">
+        <section id="backdrop" class="htc__product__grid bg__white ptb--100">
             <div class="container">
                 <div class="row">
                     <?php
@@ -47,17 +51,17 @@ if($cat_id>0){
                                         <!-- Start Single Category -->
                                         <div class="col-md-4 col-lg-3 col-sm-4 col-xs-12">
                                             <div class="category">
-                                                <div class="ht__cat__thumb">
+                                                <div id="grid" class="ht__cat__thumb">
                                                     <a href="product.php?id=<?php echo $list['id'] ?>">
                                                         <img src="<?php echo PRODUCT_IMAGE_SITE_PATH.$list['product_image'] ?>" alt="product images">
                                                     </a>
                                                 </div>
                                                 <br>
                                                 <div class="fr__product__inner">
-                                                    <h4><a href="product.php?id=<?php echo $list['id'] ?>"><?php echo $list['product_name'] ?></a></h4>
+                                                    <h4><a id="prodnamer" href="product.php?id=<?php echo $list['id'] ?>"><?php echo $list['product_name'] ?></a></h4>
                                                     <ul class="fr__pro__prize">
-                                                        <li class="old__prize">$ <?php echo $list['mrp'] ?></li>
-                                                        <li>$ <?php echo $list['product_price'] ?></li>
+                                                        <li style="color: yellow;" class="old__prize">PHP <?php echo $list['product_price'] ?></li>
+                                                        <li style="color: #694047;">PHP <?php echo $list['mrp'] ?></li>
                                                     </ul>
                                                 </div>
                                             </div>

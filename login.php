@@ -8,22 +8,24 @@ if(isset($_SESSION['USER_LOGIN']) && $_SESSION['USER_LOGIN']=='yes'){
 	<?php
 }
 ?>
-        <!-- Start Bradcaump area -->
-        <div class="ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(images/bg/4.jpg) no-repeat scroll center center / cover ;">
-            <div class="ht__bradcaump__wrap">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="bradcaump__inner">
-                                <nav class="bradcaump-inner">
-                                  <a class="breadcrumb-item" href="index.php">Home</a>
-                                  <span class="brd-separetor"><i class="zmdi zmdi-chevron-right"></i></span>
-                                  <span class="breadcrumb-item active">Login/Register</span>
-                                </nav>
-                            </div>
+<link rel="stylesheet" href="login.css">
+
+<div id="top-catego"  class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="bradcaump__inner">
+                            <nav class="bradcaump-inner">
+                              <a id="homebut" class="breadcrumb-item" href="index.php">HOME</a>
+                              <span class="brd-separetor"><i style="color: rgb(104, 205, 255);" class="zmdi zmdi-chevron-right"></i></span>
+                              <span style="color: rgb(104, 205, 255);" class="breadcrumb-item active">Log-in</span>
+                            </nav>
                         </div>
                     </div>
                 </div>
+            </div>
+
+        <!-- Start Bradcaump area -->
+        <div class="ht__bradcaump__area">
             </div>
         </div>
         <!-- End Bradcaump area -->
@@ -35,7 +37,7 @@ if(isset($_SESSION['USER_LOGIN']) && $_SESSION['USER_LOGIN']=='yes'){
 						<div class="contact-form-wrap mt--60">
 							<div class="col-xs-12">
 								<div class="contact-title">
-									<h2 class="title__line--6">Login</h2>
+									<h2 id="contactus" class="title__line--6">Login</h2>
 								</div>
 							</div>
 							<div class="col-xs-12">
@@ -69,7 +71,7 @@ if(isset($_SESSION['USER_LOGIN']) && $_SESSION['USER_LOGIN']=='yes'){
 						<div class="contact-form-wrap mt--60">
 							<div class="col-xs-12">
 								<div class="contact-title">
-									<h2 class="title__line--6">Register</h2>
+									<h2 id="contactus" class="title__line--6">Register</h2>
 								</div>
 							</div>
 							<div class="col-xs-12">

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+#top-catego {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(191, 121, 0, 0.773)
+}
+#homebut {
+    color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#homebut:hover{
+    color: rgb(104, 205, 255);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#banner {
+    height: 500px;
+    background-color: rgba(0,0,0,0);
+    background: url('images/extra/ultimateplay.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#backdrop {
+    background: none;
+}
+#grid {
+    height: 250px;
+}
+#grid:hover {
+    background: url('images/extra/jiffy/bg.webp');
+    background-size: cover;
+}
+
+#prodnamer {
+    color: rgb(255, 112, 112);
+    font-family: 'Oswald', sans-serif;
+}
+#prodnamer:hover {
+    color: aquamarine;
+}
+#saleprice{
+    color: yellow;
+}
