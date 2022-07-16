@@ -1,0 +1,62 @@
+
+
+
+#top-catego {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(191, 121, 0, 0.773)
+}
+#homebut {
+    color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#homebut:hover{
+    color: rgb(104, 205, 255);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+tr:hover {
+    background-color: rgba(191, 121, 0, 0.773);
+}
+#tbr tr th {
+    color: white;
+}
+
+.accordion #checkoutmeth {
+    background-color: transparent;
+    font-size: 200%;
+    color: orange;
+}
+#checkoutmeth {
+    background-color: transparent;
+    font-size: 200%;
+    color: orange;
+}
+
+
+#subsub {
+    background-color: greenyellow;
+    padding: 2%;
+    color: black;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+#finprice{
+    color: white;
+    font-size: 125%;
+}
+#finalprc {
+    color: white;
+    background-color: transparent;
+    font-size: 200%;
+}
+#space1 {
+    padding-top: 75%;
+    margin-left: 75%;
+}
+#space {
+    padding: 3%;
+}

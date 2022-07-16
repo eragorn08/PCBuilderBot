@@ -48,24 +48,25 @@ if(isset($_POST['submit'])){
     <?php
 }
 ?>
+<link rel="stylesheet" href="checkout.css">
 
- <!-- Start Bradcaump area -->
- <div class="ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(images/bg/4.jpg) no-repeat scroll center center / cover ;">
-            <div class="ht__bradcaump__wrap">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="bradcaump__inner">
-                                <nav class="bradcaump-inner">
-                                  <a class="breadcrumb-item" href="index.html">Home</a>
-                                  <span class="brd-separetor"><i class="zmdi zmdi-chevron-right"></i></span>
-                                  <span class="breadcrumb-item active">checkout</span>
-                                </nav>
-                            </div>
+<div id="top-catego"  class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="bradcaump__inner">
+                            <nav class="bradcaump-inner">
+                              <a id="homebut" class="breadcrumb-item" href="index.php">HOME</a>
+                              <span class="brd-separetor"><i style="color: rgb(104, 205, 255);" class="zmdi zmdi-chevron-right"></i></span>
+                              <span style="color: rgb(104, 205, 255);" class="breadcrumb-item active">CART</span>
+                            </nav>
                         </div>
                     </div>
                 </div>
             </div>
+
+ <!-- Start Bradcaump area -->
+ <div class="ht__bradcaump__area">
+
         </div>
         <!-- End Bradcaump area -->
         <!-- cart-main-area start -->
@@ -82,7 +83,7 @@ if(isset($_POST['submit'])){
                                     if(!isset($_SESSION['USER_LOGIN'])) {
                                         $accordion_class='accordion__hide';
                                         ?>
-                                    <div class="accordion__title">
+                                    <div id="checkoutmeth" class="accordion__title">
                                         Checkout Method
                                     </div>
                                     <div class="accordion__body">
@@ -91,15 +92,15 @@ if(isset($_POST['submit'])){
                                                 <div class="col-md-6">
                                                     <div class="checkout-method__login">
                                                         <form id="login-form" method="post">
-                                                            <h5 class="checkout-method__title">Login</h5>
+                                                            <h5 style="color: pink;" class="checkout-method__title">Login</h5>
                                                             <div class="single-input">
-                                                                <label for="user-email">Email Address</label>
+                                                                <label style="color: white;" for="user-email">Email Address</label>
                                                                 <input type="text" name="login_email" id="login_email" placeholder="Your Email" style="width:100%">
                                                                 <span class="field_error" id="login_email_error"></span>
                                                             </div>
                                                             
                                                             <div class="single-input">
-                                                                <label for="user-pass">Password</label>
+                                                                <label style="color: white;" for="user-pass">Password</label>
                                                                 <input type="password" name="login_password" id="login_password" placeholder="Your Password" style="width:100%">
                                                                 <span class="field_error" id="login_password_error"></span>
                                                             </div>
@@ -116,25 +117,25 @@ if(isset($_POST['submit'])){
                                                 <div class="col-md-6">
                                                     <div class="checkout-method__login">
                                                         <form action="#">
-                                                            <h5 class="checkout-method__title">Register</h5>
+                                                            <h5 style="color: pink;" class="checkout-method__title">Register</h5>
                                                             <div class="single-input">
-                                                                <label for="user-email">Name</label>
+                                                                <label style="color: white;" for="user-email">Name</label>
                                                                 <input type="text" name="name" id="name" placeholder="Your Name" style="width:100%">
                                                                 <span class="field_error" id="name_error"></span>
                                                             </div>
 															<div class="single-input">
-                                                                <label for="user-email">Email Address</label>
+                                                                <label style="color: white;" for="user-email">Email Address</label>
                                                                 <input type="text" name="email" id="email" placeholder="Your Email" style="width:100%">
                                                                 <span class="field_error" id="email_error"></span>
                                                             </div>
 															
                                                             <div class="single-input">
-                                                            <label for="user-email">Email Address</label>
+                                                            <label style="color: white;" for="user-email">Mobile Number</label>
                                                             <input type="text" name="mobile" id="mobile" placeholder="Your Mobile" style="width:100%">
                                                             <span class="field_error" id="mobile_error"></span>
                                                             </div>
                                                             <div class="single-input">
-                                                            <label for="user-email">Email Address</label>
+                                                            <label style="color: white;" for="user-email">Password</label>
                                                             <input type="password" name="password" id="password" placeholder="Your Password" style="width:100%">
                                                             <span class="field_error" id="password_error"></span>
                                                             </div>
@@ -150,7 +151,7 @@ if(isset($_POST['submit'])){
                                     <?php
                                     }
                                     ?>
-                                    <div class="<?php echo $accordion_class?>">
+                                    <div id="checkoutmeth" class="<?php echo $accordion_class?>">
                                         Address Information
                                     </div>
                                     <form method="post">
@@ -159,44 +160,47 @@ if(isset($_POST['submit'])){
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="single-input">
+                                                        <label style="color: white;" for="user-email">Home Address</label>
                                                             <input type="text" name="address" placeholder="Home Address" required>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-6">
                                                         <div class="single-input">
+                                                        <label style="color: white;" for="user-email">City/State</label>
                                                             <input type="text" name="city" placeholder="City/State" required>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-6">
                                                         <div class="single-input">
+                                                        <label style="color: white;" for="user-email">Post Code/Zip</label>
                                                             <input type="text" name="postcode" placeholder="Post code/ zip" required>
                                                         </div>
                                                     </div>
                                                 </div>
                                         </div>
                                     </div>
-                                    <div class="<?php echo $accordion_class?>">
+                                    <div id="checkoutmeth" class="<?php echo $accordion_class?>">
                                         payment option
                                     </div>
                                     <div class="accordion__body">
                                         <div class="paymentinfo">
                                             <div class="single-method">
-                                                <input type="radio" name="payment_type" value="COD" required>&nbsp;&nbsp;COD
-                                                <br/><br/><input type="radio" name="payment_type" value="GCash" required>&nbsp;&nbsp;GCash: 09XXXXXXXX Name: John Smith
+                                                <input type="radio" name="payment_type" value="COD" required>&nbsp;&nbsp;<a style="color: white; font-size: 150%">Cash-on Delivery</a>
+                                                <br/><br/><input type="radio" name="payment_type" value="GCash" required>&nbsp;&nbsp;<a style="color: white; font-size: 150%">GCASH Online Bank</a>
                                             </div>
                                             <div class="single-method">
                                                 
                                             </div>
                                         </div>
                                     </div>
-                                    <input type="submit" name="submit"/>
+                                    <input id="subsub" type="submit" name="submit"/>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="order-details">
-                            <h5 class="order-details__title">Your Order</h5>
+                        <div style="background-color: transparent" class="order-details">
+                            <h5 id="checkoutmeth" class="order-details__title">Your Orders</h5>
                             <div class="order-details__item">
                             <?php
                                 $cart_total=0;
@@ -214,11 +218,11 @@ if(isset($_POST['submit'])){
                                         <img src="<?php echo PRODUCT_IMAGE_SITE_PATH.$image?>"/>
                                     </div>
                                     <div class="single-item__content">
-                                        <a href="#"><?php echo $product_name ?></a>
-                                        <span class="price">$<?php echo $price*$qty ?></span>
+                                        <a style="color: pink; font-size: 150%;" href="#"><?php echo $product_name ?></a>
+                                        <span  id="finprice" class="price">PHP <?php echo $price*$qty ?></span>
+                                        <a href="javascript:void(0)" onclick="manage_cart('<?php echo $key?>','remove')"><i style="color: white;" class="icon-trash icons"></i></a>
                                     </div>
                                     <div class="single-item__remove">
-                                    <a href="javascript:void(0)" onclick="manage_cart('<?php echo $key?>','remove')"><i class="icon-trash icons"></i></a>
                                     </div>
                                 </div>
                                 <?php
@@ -226,9 +230,11 @@ if(isset($_POST['submit'])){
                             ?>
                             </div>
                             
-                            <div class="ordre-details__total">
-                                <h5>Order total</h5>
-                                <span class="price">$<?php echo $cart_total ?></span>
+                            <div id="space1" class="ordre-details__total">
+                                <h5 id="checkoutmeth" >Your Total Price: </h5>
+                                <div id="space">
+                                <span id="finalprc" class="price">PHP <?php echo $cart_total ?>.00</span>
+                                </div>
                             </div>
                         </div>
                     </div>

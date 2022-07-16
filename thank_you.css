@@ -1,0 +1,45 @@
+#top-catego {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(191, 121, 0, 0.773)
+}
+#homebut {
+    color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#homebut:hover{
+    color: rgb(104, 205, 255);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+tr:hover {
+    background-color: rgba(191, 121, 0, 0.773);
+}
+#tbr tr th {
+    color: white;
+}
+
+#tymess {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tymess h1{
+    display: inline;
+    text-align: center;
+}
+#tymess h2{
+    display: inline;
+}
+#tymess #track {
+    color: white;
+}
+#tymess #track:hover {
+    color: purple;
+}
