@@ -1,0 +1,51 @@
+tr:hover {
+    background-color: rgba(191, 121, 0, 0.773);
+}
+#tbr tr th {
+    color: white;
+    border-top: medium none;
+    padding: 20px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+#tbr tr td {
+    color: white;
+    border-top: medium none;
+    padding: 20px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+#tbr tr td a {
+    color: white;
+    border-top: medium none;
+    padding: 20px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+#tbr tr td span {
+    color: white;
+    border-top: medium none;
+    padding: 20px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}

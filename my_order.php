@@ -1,6 +1,8 @@
 <?php 
-require('top.php'); 
+require('top.php');
 ?>
+<link rel="stylesheet" href="my_order.css">
+
  <!-- wishlist-area start -->
  <div class="wishlist-area ptb--100 bg__white">
             <div class="container">
@@ -8,8 +10,8 @@ require('top.php');
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="wishlist-content">
                             <form action="#">
-                                <div class="wishlist-table table-responsive">
-                                    <table>
+                                <div id="tbr" class="wishlist-table table-responsive">
+                                    <table style="background-color: transparent;">
                                         <thead>
                                             <tr>
                                                 <th class="product-thumbnail">Order ID</th>
@@ -30,9 +32,9 @@ require('top.php');
                                                 <td class="product-add-to-cart"><a href="my_order_details.php?id=<?php echo $row['id'] ?>"><?php echo $row['id'] ?></a></td>
                                                 <td class="product-name"><a href="#"><?php echo $row['added_on'] ?></a></td>
                                                 <td class="product-name"><a href="#">
-                                                    <?php echo $row['address'] ?><br/>
-                                                    <?php echo $row['city'] ?><br/>
-                                                    <?php echo $row['postcode'] ?>
+                                                    <?php echo $row['address'] ?><br>
+                                                    &nbsp;&nbsp;<?php echo $row['city'] ?><br>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;<?php echo $row['postcode'] ?>
                                                 </a></td>
                                                 <td class="product-name"><a href="#"><?php echo $row['payment_type'] ?></a></td>
                                                 <td class="product-price"><span class="amount"><?php echo $row['payment_status_str'] ?></span></td>

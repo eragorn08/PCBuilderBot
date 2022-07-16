@@ -225,21 +225,22 @@ if(isset($_POST['submit'])){
                                     <div class="single-item__remove">
                                     </div>
                                 </div>
-                                <?php
+                            <?php
                                 }
                             ?>
-                            </div>
+                                
                             
-                            <div id="space1" class="ordre-details__total">
-                                <h5 id="checkoutmeth" >Your Total Price: </h5>
-                                <div id="space">
-                                <span id="finalprc" class="price">PHP <?php echo $cart_total ?>.00</span>
-                                </div>
+                            
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div id="space1" class="order-details__total">
+                                <h5 style="background-color: transparent;font-size: 200%;color: orange;" id="checkoutmeth" >Your Total Price: </h5>
+                                <div id="space">
+                                <span id="finalprc" class="price">PHP <?php echo $cart_total ?>.00</span>
+                                </div>
         </div>
         <!-- cart-main-area end -->
 <?php require('footer.php') ?>

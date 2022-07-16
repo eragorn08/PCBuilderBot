@@ -2,6 +2,9 @@
 require('top.php'); 
 $order_id=get_safe_value($con,$_GET['id']);
 ?>
+
+<link rel="stylesheet" href="my_order_details.css">
+
  <!-- wishlist-area start -->
  <div class="wishlist-area ptb--100 bg__white">
             <div class="container">
@@ -9,8 +12,8 @@ $order_id=get_safe_value($con,$_GET['id']);
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="wishlist-content">
                             <form action="#">
-                                <div class="wishlist-table table-responsive">
-                                    <table>
+                                <div id="tbr" class="wishlist-table table-responsive">
+                                    <table style="background-color: transparent;">
                                         <thead>
                                             <tr>
                                                 <th class="product-thumbnail">Product Name</th>
@@ -32,14 +35,14 @@ $order_id=get_safe_value($con,$_GET['id']);
                                                 <td class="product-name"><?php echo $row['product_name'] ?></td>
                                                 <td class="product-name"><img src="<?php echo PRODUCT_IMAGE_SITE_PATH.$row['product_image']?>" alt="full-image"></td>
                                                 <td class="product-price"><span class="amount"><?php echo $row['qty'] ?></span></td>
-                                                <td class="product-price"><span class="amount"><?php echo $row['price'] ?></span></td>
-                                                <td class="product-price"><span class="amount"><?php echo $row['qty']*$row['price'] ?></span></td>
+                                                <td class="product-price"><span class="amount">PHP <?php echo $row['price'] ?></span></td>
+                                                <td class="product-price"><span class="amount">PHP <?php echo $row['qty']*$row['price'] ?></span></td>
                                             </tr>
                                             <?php }?>
                                             <tr>
                                                 <td colspan="3"></td>
-                                                <td class="product-name">Total Price = </td>
-                                                <td class="product-name"><?php echo $total_price ?></td>
+                                                <td class="product-name" style="color: lightblue;">Your Total Price is </td>
+                                                <td class="product-name">PHP <?php echo $total_price ?>.00</td>
                                             </tr>
                                         </tbody>
                                     </table>
