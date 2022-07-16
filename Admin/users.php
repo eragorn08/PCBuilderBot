@@ -45,6 +45,7 @@ $res=mysqli_query($con,$sql);
                                        <th>Email</th>
                                        <th>Mobile Number</th>
                                        <th>Date</th>
+                                       <th>Manage</th>
                                     </tr>
                                  </thead>
                                  <tbody>

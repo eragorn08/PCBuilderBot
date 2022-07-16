@@ -48,6 +48,7 @@ $res=mysqli_query($con,$sql);
                                        <th>MRP</th>
                                        <th>Price</th>
                                        <th>Quantity</th>
+                                       <th>Manage</th>
                                     </tr>
                                  </thead>
                                  <tbody>

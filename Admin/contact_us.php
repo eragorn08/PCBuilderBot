@@ -47,6 +47,7 @@ $res=mysqli_query($con,$sql);
                                        <th>Mobile</th>
                                        <th>Comment</th>
                                        <th>Date</th>
+                                       <th>Manage</th>  
                                     </tr>
                                  </thead>
                                  <tbody>

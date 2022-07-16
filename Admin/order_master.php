@@ -16,9 +16,9 @@ $res=mysqli_query($con,$sql);
                         </div>
                         <div class="card-body--">
                            <div class="table-stats order-table ov-h">
-                           <table>
+                           <table style="width: 100%">
                                 <thead>
-                                    <tr>
+                                    <tr >
                                         <th class="product-thumbnail">Order ID</th>
                                         <th class="product-name"><span class="nobr">Order Date</span></th>
                                         <th class="product-price"><span class="nobr"> Address </span></th>

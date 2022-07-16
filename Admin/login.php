@@ -41,6 +41,8 @@ if(isset($_POST['submit'])){
    <body class="bg-dark">
       <div class="sufee-login d-flex align-content-center flex-wrap">
          <div class="container">
+            <div><a href="../index.php"><img src="../images/extra/PCBotLogo.png" style="padding-top: 10%; margin-left: 30%;"></img></a></div>
+
             <div class="login-content">
                <div class="login-form mt-150">
                   <form method="post">

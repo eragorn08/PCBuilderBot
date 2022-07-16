@@ -6,10 +6,17 @@
                     <div class="row">
                         <!-- Start Single Footer Widget -->
                         <div class="col-md-3 col-sm-6 col-xs-12">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
                             <div class="footer">
                                 <h2 class="title__line--2">ABOUT US</h2>
                                 <div class="ft__details">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
+                                    <p>The PCBuilderBot Company focuses on providing computer hardware via online
+                                    and giving them the freedom to choose the computer component they need
+                                    or want. Due to the continuous evolution of technology, more and more of
+                                    our lives are being dependent digitally thus the need for computer devices
+                                    and as such the need for its components or hardware.
+                                    </p>
                                     <div class="ft__social__link">
                                         <ul class="social__link">
                                             <li><a href="#"><i class="icon-social-twitter icons"></i></a></li>
@@ -27,33 +34,16 @@
                             </div>
                         </div>
                         <!-- End Single Footer Widget -->
-                        <!-- Start Single Footer Widget -->
-                        <div class="col-md-2 col-sm-6 col-xs-12 xmt-40">
-                            <div class="footer">
-                                <h2 class="title__line--2">information</h2>
-                                <div class="ft__inner">
-                                    <ul class="ft__list">
-                                        <li><a href="#">About us</a></li>
-                                        <li><a href="#">Delivery Information</a></li>
-                                        <li><a href="#">Privacy & Policy</a></li>
-                                        <li><a href="#">Terms  & Condition</a></li>
-                                        <li><a href="#">Manufactures</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Footer Widget -->
+            
                         <!-- Start Single Footer Widget -->
                         <div class="col-md-2 col-sm-6 col-xs-12 xmt-40 smt-40">
                             <div class="footer">
-                                <h2 class="title__line--2">my account</h2>
+                                <h2 class="title__line--2">Accounts</h2>
                                 <div class="ft__inner">
                                     <ul class="ft__list">
-                                        <li><a href="#">My Account</a></li>
-                                        <li><a href="cart.html">My Cart</a></li>
-                                        <li><a href="#">Login</a></li>
-                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
+                                        <li><a href="login.php">Login</a></li>
+                                        <li><a href="cart.php">My Cart</a></li>
+                                        <li><a href="checkout.php">Checkout</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -65,11 +55,10 @@
                                 <h2 class="title__line--2">Our service</h2>
                                 <div class="ft__inner">
                                     <ul class="ft__list">
-                                        <li><a href="#">My Account</a></li>
-                                        <li><a href="cart.html">My Cart</a></li>
-                                        <li><a href="#">Login</a></li>
-                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
+                                        <li><a href="index.php">Home</a></li>
+                                        <li><a href="cart.php">Cart</a></li>
+                                        <li><a href="admin/login.php">Admin</a></li>
+                                        <li><a href="checkout.php">Checkout</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -78,12 +67,12 @@
                         <!-- Start Single Footer Widget -->
                         <div class="col-md-3 col-sm-6 col-xs-12 xmt-40 smt-40">
                             <div class="footer">
-                                <h2 class="title__line--2">NEWSLETTER </h2>
+                                <h2 class="title__line--2">Contact Us </h2>
                                 <div class="ft__inner">
                                     <div class="news__input">
-                                        <input type="text" placeholder="Your Mail*">
+                                        <input type="text" placeholder="Your E-Mail*">
                                         <div class="send__btn">
-                                            <a class="fr__btn" href="#">Send Mail</a>
+                                            <a class="fr__btn" href="contact.php">Continue</a>
                                         </div>
                                     </div>
                                     
@@ -101,7 +90,7 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="copyright__inner">
-                                <p>Copyright© <a href="https://freethemescloud.com/">Free themes Cloud</a> 2018. All right reserved.</p>
+                                <p>Copyright© <a href="index.php">PCBuilderBot Organization</a> 2022. All right reserved.</p>
                                 <a href="#"><img src="images/others/shape/paypol.png" alt="payment images"></a>
                             </div>
                         </div>

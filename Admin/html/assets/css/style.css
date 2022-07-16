@@ -3228,7 +3228,11 @@ footer.site-footer .footer-inner a {
     .right-panel header.header {
         height: 62px
     }
-    .right-panel .top-left,
+    .right-panel .top-left {
+        width: 100%;
+        float: none;
+        background: #fff
+    }
     .right-panel .top-right {
         width: 100%;
         float: none;

@@ -6,7 +6,7 @@
                      Copyright &copy; 2022 PCBuilderBot
                   </div>
                   <div class="col-sm-6 text-right">
-                     Designed by <a href="https://colorlib.com/">Colorlib</a>
+                     Designed by <a href="../index.php">Cebreiros, Dela Cruz</a>
                   </div>
                </div>
             </div>

@@ -183,12 +183,12 @@
                         <div class="col-md-4 col-lg-3 col-sm-4 col-xs-12">
                             <div class="category">
                                 <div class="ht__cat__thumb">
-                                    <a href="product-details.html">
+                                    <a href="product.php?id=45">
                                         <div id="csgo"></div>
                                     </a>
                                 </div>
                                 <div class="fr__product__inner">
-                                    <h4><a id="csfont" href="product-details.html">Global Elite Pack</a></h4>
+                                    <h4><a id="csfont" href="product.php?id=45">Global Elite Pack</a></h4>
                                     <ul class="fr__pro__prize">
                                         <li id="oldprice" class="old__prize">PHP 27000</li>
                                         <li id="newprice">PHP 25000</li>
@@ -201,12 +201,12 @@
                         <div class="col-md-4 col-lg-3 col-sm-4 col-xs-12">
                             <div class="category">
                                 <div class="ht__cat__thumb">
-                                    <a href="product-details.html">
+                                    <a href="product.php?id=46">
                                         <div id="valo"></div>
                                     </a>
                                 </div>
                                 <div class="fr__product__inner">
-                                    <h4><a id="valfont" href="product-details.html">Radiant Pack</a></h4>
+                                    <h4><a id="valfont" href="product.php?id=46">Radiant Pack</a></h4>
                                     <ul class="fr__pro__prize">
                                         <li id="oldprice" class="old__prize">PHP 22000</li>
                                         <li id="newprice">PHP 20000</li>
@@ -219,12 +219,12 @@
                         <div class="col-md-4 col-lg-3 col-sm-4 col-xs-12">
                             <div class="category">
                                 <div class="ht__cat__thumb">
-                                    <a href="product-details.html">
+                                    <a href="product.php?id=47">
                                     <div id="cyber"></div>
                                     </a>
                                 </div>
                                 <div class="fr__product__inner">
-                                    <h4><a id="cybfont" href="product-details.html">2077 Pack</a></h4>
+                                    <h4><a id="cybfont" href="product.php?id=47">2077 Pack</a></h4>
                                     <ul class="fr__pro__prize">
                                         <li id="oldprice" class="old__prize">PHP 62000</li>
                                         <li id="newprice">PHP 55000</li>
@@ -237,12 +237,12 @@
                         <div class="col-md-4 col-lg-3 col-sm-4 col-xs-12">
                             <div class="category">
                                 <div class="ht__cat__thumb">
-                                    <a href="product-details.html">
+                                    <a href="product.php?id=48">
                                         <div id="gtav"></div>
                                     </a>
                                 </div>
                                 <div class="fr__product__inner">
-                                    <h4><a id="gtafont" href="product-details.html">Five Star Pack</a></h4>
+                                    <h4><a id="gtafont" href="product.php?id=48">Five Star Pack</a></h4>
                                     <ul class="fr__pro__prize">
                                         <li id="oldprice" class="old__prize">PHP 35000</li>
                                         <li id="newprice">PHP 32000</li>
