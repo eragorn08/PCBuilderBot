@@ -21,7 +21,7 @@
                                         <h2>Php 42,000</h2>
                                         <h1></h1>
                                         <div class="cr__btn">
-                                            <a href="cart.html">Shop Now</a>
+                                            <a href="product.php?id=86">Shop Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -43,13 +43,13 @@
                                 <div class="slide">
                                     <div class="slider__inner">
                                         <h2>Rule Your Game</h2>
-                                        <h1 id="rx6000">RADEON RX6000 SERIES</h1>
-                                        <p>Introducing the AMD Radeon™ RX 6000 Series graphics cards, featuring the breakthrough AMD RDNA™ 2 architecture and engineered to take on next generation gaming with supercharged performance and breathtaking visuals.</p>
+                                        <h1 id="rx6000">RADEON RX5000 SERIES</h1>
+                                        <p>Introducing the AMD Radeon™ RX 5000 Series graphics cards, featuring the breakthrough AMD RDNA™ 2 architecture and engineered to take on next generation gaming with supercharged performance and breathtaking visuals.</p>
                                         <h1></h1>
                                         <h2>Php 32,000</h2>
                                         <h1></h1>
                                         <div class="cr__btn">
-                                            <a href="cart.html">Shop Now</a>
+                                            <a href="product.php?id=66">Shop Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -76,7 +76,7 @@
                                         <h2>Php 86,000</h2>
                                         <h1></h1>
                                         <div class="cr__btn">
-                                            <a href="cart.html">Shop Now</a>
+                                            <a href="product.php?id=73">Shop Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -102,7 +102,7 @@
                                         <h1></h1>
                                         <h1></h1>
                                         <div class="cr__btn">
-                                            <a href="cart.html">Learn More Here!</a>
+                                            <a href="https://pcbuilderbot-v2-js.herokuapp.com/">Learn More Here!</a>
                                         </div>
                                     </div>
                                 </div>

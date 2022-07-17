@@ -30,8 +30,8 @@ if($cat_id>0){
                 </div>
             </div>
         <!-- Start Bradcaump area -->
-        <div id="banner" class="ht__bradcaump__area">
-            <div class="ht__bradcaump__wrap">
+        <div id="banner" onclick="location.href='product.php?id=86'" class="ht__bradcaump__area">
+        <a href="product.php?id=86"><div class="ht__bradcaump__wrap"></a>
                 
             </div>
         </div>
