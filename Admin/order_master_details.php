@@ -24,7 +24,7 @@ if(isset($_POST['update_payment_status'])){
                         </div>
                         <div class="card-body--">
                            <div class="table-stats order-table ov-h">
-                           <table>
+                           <table class="table">
                            <thead>
                                     <tr>
                                         <th class="product-thumbnail">Product Name</th>
@@ -60,7 +60,7 @@ if(isset($_POST['update_payment_status'])){
                                     </tr>
                                 </tbody>
                             </table>
-                            <div id="address_details">
+                            <div id="address_details" style="text-align: center">
                                 <strong>Address: </strong>
                                 <?php echo  $address?>,<?php echo  $city?>,<?php echo  $postcode?><br/><br/>
                                 <strong>Order Status:</strong>
@@ -69,7 +69,7 @@ if(isset($_POST['update_payment_status'])){
                                 echo $order_status_arr['name'];
                                 ?>
 
-                                <div>
+                                <div style="width:30%; display:flex; align-items: center; justify-content: center; margin-left: auto; margin-right: auto; margin-bottom: 15px;">
                                     <form method="post">
                                     <select class="form-control" name="update_order_status">
                                         <option>Select Status</option>
@@ -92,7 +92,7 @@ if(isset($_POST['update_payment_status'])){
                                 $payment_status_arr=mysqli_fetch_assoc(mysqli_query($con,"select payment_status.name from payment_status,user_order where user_order.id='$order_id' and user_order.payment_status=payment_status.id"));
                                 echo $payment_status_arr['name'];
                                 ?>
-                                <div>
+                                <div style="width:30%; display:flex; align-items: center; justify-content: center; margin-left: auto; margin-right: auto; margin-bottom: 15px;">
                                     <form method="post">
                                     <select class="form-control" name="update_payment_status">
                                         <option>Select Status</option>
